@@ -1,0 +1,13 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: EurekaServer
+
+eureka:
+  client:
+    # This tells Spring Boot: "I am the phonebook, don't try to register yourself in the phonebook"
+    register-with-eureka: false
+    fetch-registry: false
+
